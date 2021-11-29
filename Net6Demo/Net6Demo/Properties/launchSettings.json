@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Net6Demo": {
+      "commandName": "Project"
+    },
+    "Terminal": {
+      "commandName": "Executable",
+      "executablePath": "wt.exe",
+      "commandLineArgs": "dotnet run --project \"$(ProjectPath)\""
+    }
+  }
+}
